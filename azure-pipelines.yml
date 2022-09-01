@@ -34,7 +34,7 @@ steps:
 
 - task: DeployVisualStudioTestAgent@1
   inputs:
-    testMachineGroup: 'DESKTOP-7A20P58'
+    testMachineGroup: 'Agent3'
     machineUserName: 'marian'
     machinePassword: 'Qwerty7*9)-+'
 
