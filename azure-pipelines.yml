@@ -32,11 +32,11 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: DeployVisualStudioTestAgent@1
-  inputs:
-    testMachineGroup: 'Agent3'
-    machineUserName: 'marian'
-    machinePassword: 'Qwerty7*9)-+'
+#- task: DeployVisualStudioTestAgent@1
+#  inputs:
+#    testMachineGroup: 'Agent3'
+#    machineUserName: 'marian'
+#    machinePassword: 'Qwerty7*9)-+'
 
 - task: VSTest@2
   inputs:
